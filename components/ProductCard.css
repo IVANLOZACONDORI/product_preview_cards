@@ -1,0 +1,35 @@
+.productcontainer {
+  background: var(--white);
+  width: 95vw;
+  max-width: 350px;
+  border-radius: 16px;
+  overflow: hidden;
+  margin: 24px auto;
+}
+
+.productimage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.productcontent {
+  padding: 24px;
+}
+
+.addtocart {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: var(--green-500);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.addtocart:hover {
+  opacity: 0.9;
+}

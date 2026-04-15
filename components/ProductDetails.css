@@ -1,26 +1,26 @@
 .categoria {
-  font-family: var(--font-monserrat);
+  font-family: var(--font-montserrat);
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 5px;
   color: var(--grey);
-  font-weight: 500;
   font-size: 12px;
-  margin-bottom: 16px;
+  font-weight: 500;
+  margin-bottom: 12px;
 }
 
 .titulo {
   font-family: var(--font-fraunces);
+  color: var(--black);
   font-size: 32px;
   line-height: 1;
-  margin-bottom: 20px;
-  color: var(--black);
+  margin-bottom: 16px;
 }
 
 .descripcion {
-  font-family: var(--font-monserrat);
+  font-family: var(--font-montserrat);
   color: var(--grey);
-  font-weight: 500;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.65;
+  font-weight: 500;
   margin-bottom: 24px;
 }

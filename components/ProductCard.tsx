@@ -6,14 +6,27 @@ import "./ProductCard.css";
 function ProductCard() {
   return (
     <div className="productcontainer">
-      <Image
-        src="/image-product-mobile.jpg"
-        alt="Gabrielle Essence Eau De Parfum"
-        width={343}
-        height={240}
-        className="productimage"
-        priority
-      />
+      <div className="imagewrapper">
+        {/* Imagen mobile */}
+        <Image
+          src="/image-product-mobile.jpg"
+          alt="Gabrielle Essence Eau De Parfum"
+          width={343}
+          height={240}
+          className="productimage mobileimage"
+          priority
+        />
+
+        {/* Imagen desktop */}
+        <Image
+          src="/image-product-desktop.jpg"
+          alt="Gabrielle Essence Eau De Parfum"
+          width={300}
+          height={450}
+          className="productimage desktopimage"
+          priority
+        />
+      </div>
 
       <div className="productcontent">
         <ProductDetails />
